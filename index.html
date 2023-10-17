@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="main.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    #landing {
+      background-image: url('https://source.unsplash.com/De8wMYoSSBc');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: row; 
+      align-items: center;
+      color: white;
+    }
+    #landing-image {
+      flex: 1; 
+      background-image: url('https://source.unsplash.com/1600x900/?nature,water');
+      background-size: cover;
+      background-position: center;
+      height: 100%;
+    }
+    #landing-text {
+      flex: 1; 
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    #landing-text h1 {
+      font-size: 36px;
+      font-weight: bold;
+      font-family: 'Arial', sans-serif; 
+    }
+    #landing-text h2 {
+      font-size: 24px;
+      font-family: 'Arial', sans-serif; 
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007BFF; 
+      color: white;
+      font-size: 18px;
+      text-decoration: none;
+      margin-top: 20px;
+      border-radius: 5px;
+      font-family: 'Arial', sans-serif; 
+    }
+    .btn:hover {
+      background-color: #0056b3; 
+    }
+    #images {
+      text-align: center;
+      padding: 20px;
+    }
+    #images h2 {
+      font-size: 30px;
+      font-family: 'Arial', sans-serif; 
+      margin-bottom: 20px;
+    }
+    .caption {
+      margin-top: 20px;
+      font-family: 'Arial', sans-serif; 
+    }
+    .caption h3 {
+      font-size: 24px;
+    }
+    .caption p {
+      font-size: 16px;
+    }
+    .carousel-img {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .carousel-img img {
+      max-width: 300px;
+      margin: 10px;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    footer h3 {
+      font-size: 24px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+   
+    <div id="landing">
+      <div id="landing-text">
+        <div id="landing-text-inner">
+          <h1>MU's Photography Site</h1>
+          <h2>Best of Nature</h2>
+          <a href="#images" class="btn" id="view-work">View Work</a>
+        </div>
+      </div>
+      <div id="landing-image"></div>
+    </div>
+
+    <div id="images">
+      <h2>My Work</h2>
+      <img src="https://source.unsplash.com/1600x900/?nature,water" alt="nature image" />
+      <div class="caption">
+        <h3>Crystal Lake</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, error!
+        </p>
+      </div>
+      <img src="https://source.unsplash.com/1600x900/?nature,trees" alt="nature image" />
+      <div class="caption">
+        <h3>Trees Together</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, error!
+        </p>
+      </div>
+    </div>
+
+    <div class="carousel-img">
+      <div class="caption">
+        <img src="https://source.unsplash.com/1600x900/?nature,flowers" alt="nature image" />
+        <h3>Blue Roje</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, error!
+        </p>
+      </div>
+
+      <div class="caption">
+        <img src="https://source.unsplash.com/1600x900/?nature,animals" alt="nature image" />
+        <h3>Wolf King</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, error!
+        </p>
+      </div>
+
+      <div class="caption">
+        <img src="https://source.unsplash.com/1600x900/?nature,clouds" alt="nature image" />
+        <h3>White Streaks</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, error!
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <h3>Get In Touch</h3>
+    <p>Email or call us to set up a consult</p>
+    <p>Email: <strong>contact@muphotographyproject.midterm</strong></p>
+    <p>Phone: <a href="+9195555555"><strong>(+91) 985555-5555</strong></a></p>
+  </footer>
+</body>
+</html>
